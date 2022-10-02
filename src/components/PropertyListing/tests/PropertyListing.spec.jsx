@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { within } from '@testing-library/dom';
 import PropertyListing from '../PropertyListing';
-import {mockProduct} from './mockData'
+import { mockProduct } from './mockData'
 
 global.fetch = jest.fn(() => Promise.resolve({
     ok: true,

@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import { PROPERTIES_ENDPOINT } from '../../constants'
 import PropertyCard from '../PropertyCard';
 import './PropertyListing.scss';
